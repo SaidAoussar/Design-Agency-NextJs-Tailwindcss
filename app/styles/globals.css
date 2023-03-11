@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .avatar {
+  display: inline-block;
+  background-image: url("../../public/img/testimonials/avatar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #e6e4ff;
+  border-radius: 50%;
+} */
