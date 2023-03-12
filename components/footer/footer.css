@@ -1,0 +1,26 @@
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "area area"
+    "area1 area2";
+  row-gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas: "area area1 area2";
+  }
+}
+
+.area {
+  grid-area: area;
+}
+.area1 {
+  grid-area: area1;
+}
+
+.area2 {
+  grid-area: area2;
+}

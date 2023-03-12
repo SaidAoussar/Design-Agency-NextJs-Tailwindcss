@@ -3,7 +3,7 @@ import Image from "next/image";
 import Container from "../container/container";
 const Intro = () => {
   return (
-    <section className="mt-[64px] pt-10 mb-8 md:mb-0">
+    <section className="mt-16 pt-10 mb-8 md:mb-0">
       <Container>
         <div className="lg:grid lg:grid-cols-2 lg:justify-center">
           <div className="intro-text text-center md:mb-4 lg:text-left lg:mb-0 lg:self-center">

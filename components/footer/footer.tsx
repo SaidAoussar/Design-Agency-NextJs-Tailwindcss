@@ -6,12 +6,14 @@ import twitterIcon from "@/public/img/footer/twitter.svg";
 import linkedinIcon from "@/public/img/footer/linkedin.svg";
 import instagramIcon from "@/public/img/footer/instagram.svg";
 
+import "./footer.css";
+
 const Footer = () => {
   return (
     <footer className="bg-[#00CA72] pt-20 pb-8">
       <Container>
-        <div className="grid grid-cols-[2fr_1fr_1fr] mb-16">
-          <div>
+        <div className="footer-container mb-16">
+          <div className="area">
             <h1 className="text-4xl font-bold ml-3 mb-8">Web Logo</h1>
             <p className="text-sm w-[316px] mb-5">
               Some footer text about the Agency. Just a little description to
@@ -36,7 +38,7 @@ const Footer = () => {
               </span>
             </div>
           </div>
-          <div>
+          <div className="area1">
             <h2 className="text-xl font-semibold mb-6">Quick Links</h2>
             <ul>
               <li className="mb-7">
@@ -53,7 +55,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="area2">
             <h2 className="text-xl font-semibold mb-6">Adress</h2>
             <p className="text-lg font-medium">
               Design Agency Head Office.

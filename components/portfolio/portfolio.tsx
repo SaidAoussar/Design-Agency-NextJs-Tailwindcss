@@ -11,10 +11,10 @@ const Portfolio = () => {
       <Container>
         <div>
           <h1 className="text-[#20B15A] mb-3 uppercase">our portfolio</h1>
-          <p className="text-3xl font-semibold mb-16 w-[495px]">
+          <p className="text-xl font-semibold mb-16 sm:text-2xl md:text-3xl md:w-[495px]">
             We provide the Perfect Solution to your business growth
           </p>
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 gap-y-12 lg:grid-cols-2 lg:gap-x-10 lg:gap-y-10">
             <article>
               <Image
                 className="object-cover w-full mb-9"
